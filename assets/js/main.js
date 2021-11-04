@@ -2,11 +2,7 @@ $(function () {
     $("[data-toggle='tooltip']").tooltip();
 });
 
-$('#enviarCorreo').click(function(){
-    alert('Correo enviado satisfactoriamente');
-});
-
-$('h4').on('dblclick', function(){
+$('h2').on('dblclick', function(){
     this.style.color = 'red';
 });
 
