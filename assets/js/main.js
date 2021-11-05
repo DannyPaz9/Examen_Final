@@ -3,7 +3,7 @@ $(function () {
 });
 
 $('h2').on('dblclick', function(){
-    this.style.color = 'red';
+    this.style.color = 'yellow';
 });
 
 $('.card-title').on('click', function(){
